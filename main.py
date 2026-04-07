@@ -9,8 +9,8 @@ from aiogram.types import Message
 import asyncio
 
 # --- CONFIGURACIÓN ---
-TELEGRAM_TOKEN = os.getenv("8072016541:AAHSvrbMzcfwZHhicDno3dVZn23WhPlx05Q")
-APIPERU_TOKEN = os.getenv("276dc0ee9af6493d7dc9b358371031ca190a68c08b8c37fdb8247df45e943078")
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+APIPERU_TOKEN = os.getenv("APIPERU_TOKEN")
 APIPERU_URL = "https://apiperu.dev/api/dni/"
 
 # Servidor Flask para mantener vivo el servicio en Render
